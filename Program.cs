@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-
+using AgendaApi.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
 
