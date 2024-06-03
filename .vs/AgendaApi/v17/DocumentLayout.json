@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\keila\\OneDrive\\\u00C1rea de Trabalho\\Agenda\\AgendaApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{776C0ECB-6284-4944-B75A-16DD388C2343}|AgendaApi.csproj|c:\\users\\keila\\onedrive\\\u00E1rea de trabalho\\agenda\\agendaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{776C0ECB-6284-4944-B75A-16DD388C2343}|AgendaApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{776C0ECB-6284-4944-B75A-16DD388C2343}|AgendaApi.csproj|c:\\users\\keila\\onedrive\\\u00E1rea de trabalho\\agenda\\agendaapi\\entities\\contatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776C0ECB-6284-4944-B75A-16DD388C2343}|AgendaApi.csproj|solutionrelative:entities\\contatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776C0ECB-6284-4944-B75A-16DD388C2343}|AgendaApi.csproj|c:\\users\\keila\\onedrive\\\u00E1rea de trabalho\\agenda\\agendaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776C0ECB-6284-4944-B75A-16DD388C2343}|AgendaApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\keila\\OneDrive\\\u00C1rea de Trabalho\\Agenda\\AgendaApi\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\keila\\OneDrive\\\u00C1rea de Trabalho\\Agenda\\AgendaApi\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-01T17:11:34.318Z",
+              "Title": "Contatos.cs",
+              "DocumentMoniker": "C:\\Users\\keila\\OneDrive\\\u00C1rea de Trabalho\\Agenda\\AgendaApi\\Entities\\Contatos.cs",
+              "RelativeDocumentMoniker": "Entities\\Contatos.cs",
+              "ToolTip": "C:\\Users\\keila\\OneDrive\\\u00C1rea de Trabalho\\Agenda\\AgendaApi\\Entities\\Contatos.cs",
+              "RelativeToolTip": "Entities\\Contatos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T00:00:05.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\keila\\OneDrive\\\u00C1rea de Trabalho\\Agenda\\AgendaApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\keila\\OneDrive\\\u00C1rea de Trabalho\\Agenda\\AgendaApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T23:14:58.89Z",
               "EditorCaption": ""
             }
           ]

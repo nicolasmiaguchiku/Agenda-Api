@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Context",
-    "\\Entities"
+    ""
   ],
-  "SelectedNode": "\\Context\\AgendaContext.cs",
+  "SelectedNode": "\\AgendaApi.csproj",
   "PreviewInSolutionExplorer": false
 }
