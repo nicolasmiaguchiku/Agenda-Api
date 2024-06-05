@@ -24,6 +24,32 @@ namespace AgendaApi.Controllers
             _context?.SaveChanges();
             return Ok(contato);
         }
-        
+
+        //Obter por id
+        [HttpGet("{id}")]
+        public IActionResult GetPerId(int id)
+        {
+            var contato = _context.Contatos.Find(id);
+            return contato == null ? NotFound() : Ok(contato);
+        }
+
+        // Delete
+        [HttpDelete("{id}")]
+        public IActionResult DeletePerId(int id)
+        {
+            var contato = _context.Contatos.Find(id);
+            if(contato == null)
+            {
+                return NotFound();
+            }
+
+            _context.Remove(contato);
+            _context.SaveChanges();
+
+            return Ok(contato);
+        }
     }
 }
+
+
+
