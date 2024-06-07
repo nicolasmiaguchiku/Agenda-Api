@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Entities"
   ],
-  "SelectedNode": "\\AgendaApi.sln",
+  "SelectedNode": "\\Entities\\Contatos.cs",
   "PreviewInSolutionExplorer": false
 }

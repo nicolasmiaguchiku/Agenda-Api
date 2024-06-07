@@ -25,6 +25,15 @@ namespace AgendaApi.Controllers
             return Ok(contato);
         }
 
+        [HttpGet("obterTodos")]
+        public IActionResult GetAllName()
+        {
+            var contatosNome = _context.Contatos.Select(n => n.Name).ToList();
+           
+
+            return Ok(contatosNome);
+        }
+
         //Obter por id
         [HttpGet("{id}")]
         public IActionResult GetPerId(int id)
@@ -47,6 +56,26 @@ namespace AgendaApi.Controllers
             _context.SaveChanges();
 
             return Ok(contato);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdatePerId (int id, Contatos contato) 
+        {
+            var contatoBanco = _context.Contatos.Find(id);
+            if(contatoBanco == null)
+            {
+                return NotFound();
+            }
+
+            contatoBanco.Name = contato.Name;
+            contatoBanco.Phone = contato.Phone;
+            contatoBanco.Active = contato.Active;
+
+            _context.Update(contatoBanco);
+            _context.SaveChanges();
+
+            return Ok(contatoBanco);
+
         }
     }
 }
