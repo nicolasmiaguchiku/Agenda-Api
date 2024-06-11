@@ -25,13 +25,21 @@ namespace AgendaApi.Controllers
             return Ok(contato);
         }
 
-        [HttpGet("obterTodos")]
+        [HttpGet("ObterTodosNomes")]
         public IActionResult GetAllName()
         {
-            var contatosNome = _context.Contatos.Select(n => n.Name).ToList();
+            var contatosNome = _context.Contatos.Select(x => x.Name).ToList();
            
 
             return Ok(contatosNome);
+        }
+
+        [HttpGet("ObterTodosContatos")]
+        public IActionResult GetAllContatcts()
+        {
+            var contato = _context.Contatos.ToList();
+
+            return Ok(contato);
         }
 
         //Obter por id
@@ -39,6 +47,14 @@ namespace AgendaApi.Controllers
         public IActionResult GetPerId(int id)
         {
             var contato = _context.Contatos.Find(id);
+            return contato == null ? NotFound() : Ok(contato);
+        }
+
+        //Obter por nome
+        [HttpGet("ObterPorNome")]
+        public IActionResult GetPerName(string name)
+        {
+            var contato = _context.Contatos.Where(x => x.Name.Contains(name));
             return contato == null ? NotFound() : Ok(contato);
         }
 
